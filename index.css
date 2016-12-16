@@ -123,7 +123,10 @@ li:before {
 }
 
 footer {
-  background-color: #BE7F60;
+   background-image: url('http://img11.hostingpics.net/pics/147651fondo.png');
+   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .icosize {
