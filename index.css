@@ -1,0 +1,143 @@
+/*RESTO*/
+
+body {
+  padding-top: 40px;
+}
+
+header {
+  text-align: center;
+  color: white;
+  text-shadow: 0 0 0.2em black, 0 0 0.2em black;
+  background-image: url('http://img4.hostingpics.net/pics/480492vpfbvb7dpzidawidliberadzki.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+h1 {
+  font-family: "Raleway";
+  padding-bottom: 2%
+}
+
+p {
+  padding-top: 20px;
+  font-family: "Raleway";
+  text-align: justify;
+}
+
+.intro-text {
+  padding-top: 110px;
+  padding-bottom: 50px;
+}
+
+.porfolio{
+  padding-bottom: 20px;
+  padding-top: 0px;
+  font-size: 20px;
+}
+
+.intro-lead-in {
+  font-family: "Yrsa";
+  font-size: 40px;
+  line-height: 22px;
+  margin-bottom: 25px;
+}
+
+.YrsaXS {
+  font-family: 'Yrsa';
+  font-size: 4em;
+}
+
+.intro-heading {
+  font-family: 'Yrsa';
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 150px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.title {
+  padding-top: 60px;
+}
+
+.article {
+  font-size: 20px;
+}
+
+.equilibrio {
+  padding-top: 60px;
+  padding-left: 60px;
+}
+
+li {
+  list-style: none;
+  font-family: "Raleway";
+}
+
+li:before {
+  content: '\203A';
+  display: inline-block;
+  height: 25px;
+  width: 35px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: -35px;
+}
+
+.center {
+  text-align: center;
+}
+
+.adj-img {
+  height: 6.250em;
+  width: auto;
+}
+
+.squ-img {
+  border-radius: 0;
+  height: 50%;
+}
+
+.imgwrap {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  display: inline;
+  float: none;
+}
+
+.well {
+  width: auto;
+  margin: auto;
+}
+
+footer {
+  background-color: #BE7F60;
+}
+
+.icosize {
+  font-size: 40px;
+}
+
+.img-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: @screen-xs) {
+  .intro-heading {
+    font-size: 3em;
+  }
+}
