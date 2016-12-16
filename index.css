@@ -91,6 +91,13 @@ li:before {
   margin-left: -35px;
 }
 
+footer {
+  background-image: url('http://img11.hostingpics.net/pics/147651fondo.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .center {
   text-align: center;
 }
@@ -120,13 +127,6 @@ li:before {
 .well {
   width: auto;
   margin: auto;
-}
-
-footer {
-   background-image: url('http://img11.hostingpics.net/pics/147651fondo.png');
-   background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .icosize {
